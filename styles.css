@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(/background-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.LOGO {
+    width: 140px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    width: 100px;
+    font-weight: 400;
+}
+.vturesults-btn {
+    display: inline block;
+    text-decoration: none;
+    counter-reset: #333;
+    margin-right: 15px;
+    font-weight: 400;
+}
+.vtupage-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image:linear-gradient(50deg, #19e84a, #37e82b);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+
+}
+.rotate {
+    margin: 0;
+    padding: 0;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(238, 247, 247);
+    margin: 0px;
+    transition: all 10s ease-in-out;
+    -webkit-animation: infinite;
+}
+.rotate:hover{
+    transform: rotate(360deg);
+}
+
+.faclaties {
+    width: 450px;
+    position: absolute;
+    font-style:italic;
+    color: rgb(13, 3, 102);
+    right: 0%;
+    -webkit-animation: infinite;
+    transition: all;
+}
+.faclaties:hover{
+    transform: rotate3d(25deg);
+}
+.foraman {
+    width: 800px;
+    position: absolute;
+    font-style:italic;
+    color: rgb(19, 59, 4);
+    right: 0%;
+    -webkit-animation: infinite;
+    transition: all;   
+}
+
+ 
